@@ -1,0 +1,40 @@
+{
+  "expo": {
+    "name": "CrissCross",
+    "slug": "CrissCross",
+    "version": "alpha-0.1",
+    "orientation": "portrait",
+    "icon": "src/assets/images/CrissCross.png",
+    "splash": {
+      "image": "src/assets/images/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "src/assets/*"
+    ],
+    "ios": {
+      "bundleIdentifier": "app.crisscross",
+      "buildNumber": "0.0.1",
+      "icon": "src/assets/images/CrissCross.png",
+      "usesAppleSignIn": true,
+      "associatedDomains": [
+        "applinks:<DOMAIN>"
+      ],
+      "infoPlist": {
+        "NSCameraUsageDescription": "Enable camera access to scan CrissCross QR codes"
+      },
+      "config": {
+        "googleSignIn": {
+          "reservedClientId": "<RESERVED_CLIENT_ID>"
+        }
+      }
+    },
+    "android": {
+      "package": "app.crisscross"
+    }
+  }
+}

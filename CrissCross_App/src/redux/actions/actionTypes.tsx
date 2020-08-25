@@ -1,0 +1,13 @@
+export const UPDATE_LOADED = 'APP:UPDATE_LOADED'
+
+export const USER_LOGIN = 'USER:LOGIN'
+export const USER_LOGOUT = 'USER:LOGOUT'
+
+export const USER_UPDATE_FIELDS = 'USER:UPDATE_FIELDS'
+
+
+export const CARD_SET_FILTER = 'CARD:SET_FILTER'
+export const CARD_INITIAL_INSERT = 'CARD:INITIAL_INSERT'
+export const CARD_ADD = 'CARD:ADD'
+export const CARD_DELETE = 'CARD:DELETE'
+
